@@ -1,0 +1,10 @@
+/*
+ * Copyright (c) 2023 tinyVision.ai
+ * SPDX-License-Identifier: MIT
+ */
+
+&i2c0 {
+	si5351a: si5351a@60 {
+		reg = <0x60>;
+	};
+};
